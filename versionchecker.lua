@@ -8,19 +8,19 @@ AddEventHandler("onResourceStart", function(resource)
 end)
 
 function CheckFrameworkVersion()
-    PerformHttpRequest("https://raw.githubusercontent.com/HazeyDev/scriptname/master/version.txt", function(err, text, headers)
+    PerformHttpRequest("https://raw.githubusercontent.com/Hazey-PG/hd-stopdespawning/main/version.txt", function(err, text, headers)
         if string.match(text, version) then
             print(" ")
             print("---------- ***** VERSION ----------")
             print(" Script is up to date and ready to go!")
-            print("https://github.com/HazeyDev/VehicleSaver")
+            print("https://github.com/Hazey-PG/hd-stopdespawning")
             print("--------------------------------")
             print(" ")
         else
             print(" ")
             print("---------- ***** VERSION ----------")
             print("Script is outdated. Update for more features!")
-            print("https://github.com/HazeyDev/VehicleSaver")
+            print("https://github.com/Hazey-PG/hd-stopdespawning")
             print("--------------------------------")
             print(" ")
         end
