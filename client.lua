@@ -1,4 +1,4 @@
--- Debug printer
+-- Debug code 
 function dprint(msg)
 	if debugMode then
 		print(msg)
