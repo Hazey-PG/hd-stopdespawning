@@ -23,7 +23,6 @@ function CheckFrameworkVersion()
             print("https://github.com/Hazey-PG/hd-stopdespawning")
             print("--------------------------------")
             print(" ")
-        end
 
     end, "GET", "", {})
 
